@@ -252,6 +252,7 @@ class MyKMLGeneratorApp(AppWithDataSets):
         paths.append(Path(locations[1].name, locations[8].name))
         paths.append(Path(locations[7].name, locations[12].name))
         paths.append(Path(locations[1].name, locations[2].name))
+        paths.append(Path(locations[10].name, locations[11].name))
         data_set.add_all(paths)
 
     def get_icon_url(self):
